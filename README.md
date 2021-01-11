@@ -14,6 +14,7 @@ This game allows 2 players to play along with winner detection algorithm
 ## **Winner detection algorithm**
 
 ```java
+// OX is 2D array (3x3)
 private char CheackWinner(){
         if(OX[0] == OX[1] && OX[1] == OX[2] && OX[0] != '-'){
             return OX[0];
